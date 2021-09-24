@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0;
+}
+.header{
+    padding: 5px 10px 10px 40px
+}
+.footer{
+    padding: 5px 10px 10px 40px
+}
+.block{
+    background-color: rgb(223, 221, 221);
+    height: 400px;
+    width: 700px;
+    border-radius: 8px;
+}
+.form1{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+.button{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 5px 0 0;
+}
+.info{
+    display: none;
+}
+.edit{
+    background-color: rgb(233, 199, 48);
+}
+.style{
+    background-color: rgb(6, 143, 161);
+    color: white;
+}
+textarea{
+    margin: 10px 0px 15px 0px;
+}
+.form2{
+    margin: 15px 0 0 30px;
+}
+.add{
+    color: white;
+    background-color: red;
+}
+.save{
+    color: white;
+    background-color: rgb(9, 182, 23);
+}
+.textInArea{
+   padding: 0px 0px 0px 0px;
+}
+.option{
+    width: 250px;
+    box-shadow: 0 0 0 1pt rgb(255, 255, 255);
+    outline: none;
+    transition: 0.1s;
+    border-color: rgb(218, 218, 218);
+    border-radius: 5px;
+}
+.option:focus{
+    box-shadow: 0 0 4pt 2pt rgb(72, 134, 250);
+    box-shadow: 0px;
+    border: 0px;
+}
+.inputF4{
+    width: 120px;
+    height: 30px;
+    background-color: grey;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+}
+.forms{
+    display: flex;
+}
+.set{
+    display: none;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.colors{
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    margin: -230px 0px 0px 450px;
+    display: none;
+}
+.blocks{
+    width: 50px;
+    height: 50px;
+}
+.row{
+    display: flex;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: pink;
+}
+.white{
+    background-color: white;
+}
+.purple{
+    background-color: purple;
+}
+.cadetblue{
+    background-color: cadetblue;
+}
+
+.reds{
+    background-color: red;
+}
+.blues{
+    background-color: blue;
+}
+.greens{
+    background-color: green;
+}
+.blacks{
+    background-color: black;
+}
+.oranges{
+    background-color: orange;
+}
+.pinks{
+    background-color: pink;
+}
+.whites{
+    background-color: white;
+}
+.purples{
+    background-color: purple;
+}
+.cadetblues{
+    background-color: cadetblue;
+}
+.save_box{
+    background-color: rgb(223, 221, 221);
+    height: 250px;
+    width: 700px;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: auto;
+}
+.container2{
+    margin: 50px 0 0 ;
+    display: none;
+}
+.info_list{
+    display: flex;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+.info_list p{
+    margin: 10px 0 0 0 ;
+    line-height: 20px;
+    font-size: 24px;
+}
+.info_list input{
+    margin: 4px 119px -4px 64px;
+    width: 400px;
+}
+.info_list select{
+    width: 408px;
+    margin: 7px 1px -6px 12px;
+}
+.btn-list{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(9, 182, 23);
+    border-radius: 5px;
+    border: 0px;
+    margin: 7px 0 0 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.form_table input{
+    width: 450px;
+    height: 20px;
+    margin: 12px 12px 12px 40px;
+}
+.p{
+    width: 109px;
+    height: 30px;
+}
+.title_table{
+    margin: 0px;
+}
+.TR, .TD, .width, .height{
+    display: flex;
+}
+.heightSaveBox{
+    height: 500px;
+}
+.border{
+    display: flex;
+}
+.borderSelect{
+    height: 30px;
+    margin: 12px;
+}
+.table_button{
+    width: 70px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(9, 182, 23);
+}
+.yellow{
+    color: yellow;
+}
+.main_table{
+    display: none;
+}
+.main_list{
+    display: none;
+}
+.display{
+    display: block;
+}
+.displayNone{
+    display: none;
+}
+.displayFlex{
+    display: flex;
+}
+
